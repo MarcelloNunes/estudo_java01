@@ -2,7 +2,7 @@ package entities;
 
 public class Pessoa {
 
-	private Integer idpessoa;
+	private Integer idPessoa;
 	private String nome;
 	private String email;
 
@@ -10,19 +10,19 @@ public class Pessoa {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Pessoa(Integer idpessoa, String nome, String email) {
+	public Pessoa(Integer idPessoa, String nome, String email) {
 		super();
-		this.idpessoa = idpessoa;
+		this.idPessoa = idPessoa;
 		this.nome = nome;
 		this.email = email;
 	}
 
-	public Integer getIdpessoa() {
-		return idpessoa;
+	public Integer getIdPessoa() {
+		return idPessoa;
 	}
 
-	public void setIdpessoa(Integer idpessoa) {
-		this.idpessoa = idpessoa;
+	public void setIdPessoa(Integer idPessoa) {
+		this.idPessoa = idPessoa;
 	}
 
 	public String getNome() {
@@ -43,7 +43,7 @@ public class Pessoa {
 
 	@Override
 	public String toString() {
-		return "Pessoa [idpessoa=" + idpessoa + ", nome=" + nome + ", email=" + email + "]";
+		return "Pessoa [idpessoa=" + idPessoa + ", nome=" + nome + ", email=" + email + "]";
 	}
 
 }
